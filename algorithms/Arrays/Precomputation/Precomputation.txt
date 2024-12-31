@@ -1,0 +1,13 @@
+Precomputation involves performing calculations in advance to optimize the runtime of an algorithm, particularly for queries or operations that need to be performed multiple times on the same data. By storing intermediate results in a structured way (like arrays, hashes, or trees), you can reduce redundant calculations and improve efficiency.
+
+Understanding the Components of Precomputation
+1. Prefix Sum/Suffix Sum
+Prefix Sum: An array where each element at index i stores the cumulative sum of the elements from the start of the array up to i.
+Suffix Sum: An array where each element at index i stores the cumulative sum from index i to the end of the array.
+These are often used for quick range sum calculations.
+
+2. Prefix Product/Suffix Product
+Similar to prefix/suffix sums, but for multiplication. Useful when you need to calculate the product of subarrays efficiently.
+
+3. Hashing
+Use hash maps (or dictionaries) to store previously computed results, making it easy to retrieve them in O(1) time for subsequent queries.
